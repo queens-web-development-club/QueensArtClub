@@ -1,105 +1,113 @@
-import * as React from "react";
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
 
-function MyComponent() {
-  return (
-    <div className="flex flex-col items-center bg-white">
-      <div className="flex justify-center items-center self-stretch px-16 py-3.5 w-full bg-black border border-black border-solid max-md:px-5 max-md:max-w-full">
-        <div className="flex gap-5 justify-between w-full max-w-[1170px] max-md:flex-wrap max-md:max-w-full">
-          <div className="text-4xl font-bold text-white">
-            Art
-            <br />
-            Club.{" "}
-          </div>
-          <div className="flex gap-5 justify-between my-auto">
-            <div className="flex flex-col justify-center text-4xl font-bold text-black whitespace-nowrap">
-              <div className="justify-center px-7 py-5 bg-white rounded-xl max-md:px-5">
-                LOGIN
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./login.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Helvetica Neue:wght@300;400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="loginpage">
+      <header class="navbar-background-parent">
+        <div class="navbar-background">
+          <b class="art-club">
+            <p class="art">Art</p>
+            <p class="club">Club.</p>
+          </b>
+          <b class="home">Home.</b>
+        </div>
+        <div class="navbar-background1"></div>
+        <div class="about-us-wrapper">
+          <b class="about-us">About Us.</b>
+        </div>
+        <div class="events-wrapper">
+          <b class="events">Events.</b>
+        </div>
+        <div class="gallery-wrapper">
+          <b class="gallery">Gallery.</b>
+        </div>
+        <div class="password-input">
+          <div class="frame-parent">
+            <div class="about-us-events-wrapper">
+              <div class="about-us-events"></div>
+            </div>
+            <div class="log-in-button-wrapper">
+              <div class="log-in-button">
+                <div class="instagram-linkedin"></div>
+                <div class="instagram-linkedin1"></div>
+                <b class="contact">Contact.</b>
               </div>
             </div>
-            <div className="flex flex-col">
-              <div className="shrink-0 bg-white rounded-sm h-[15px]" />
-              <div className="shrink-0 mt-2.5 bg-white rounded-sm h-[15px]" />
-              <div className="shrink-0 mt-2.5 bg-white rounded-sm h-[15px]" />
-            </div>
           </div>
         </div>
-      </div>
-      <div className="mt-6 text-6xl font-bold text-stone-900 max-md:text-4xl">
-        Login.
-      </div>
-      <div className="mt-6 text-4xl text-stone-900 max-md:max-w-full">
-        Queen’s email:
-      </div>
-      <div className="shrink-0 mt-6 max-w-full rounded-2xl bg-zinc-300 h-[65px] w-[570px]" />
-      <div className="mt-6 text-4xl text-stone-900 max-md:max-w-full">
-        Password:
-      </div>
-      <div className="shrink-0 mt-6 max-w-full rounded-2xl bg-zinc-300 h-[65px] w-[570px]" />
-      <div className="mt-6 text-2xl text-stone-900">Forgot your password?</div>
-      <div className="justify-center px-7 py-2.5 mt-6 text-4xl font-bold text-white bg-blue-700 rounded-xl max-md:px-5">
-        Log in
-      </div>
-      <div className="mt-6 text-2xl text-stone-900">or</div>
-      <img
-        loading="lazy"
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/ba3643b75d62ee928c82bc70e60f5910a34396661d5ca40f762a62191a47f139?"
-        className="mt-6 max-w-full border-2 border-solid border-zinc-400 stroke-[2px] stroke-zinc-400 w-[634px]"
-      />
-      <img
-        loading="lazy"
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/ba3643b75d62ee928c82bc70e60f5910a34396661d5ca40f762a62191a47f139?"
-        className="mt-6 max-w-full border-2 border-solid border-zinc-400 stroke-[2px] stroke-zinc-400 w-[634px]"
-      />
-      <div className="justify-center px-7 py-2.5 mt-6 text-4xl font-bold text-white bg-blue-700 rounded-xl max-md:px-5">
-        Create an Account
-      </div>
-      <div className="flex justify-center items-center self-stretch px-16 py-3.5 mt-6 w-full text-white bg-black max-md:px-5 max-md:max-w-full">
-        <div className="flex gap-5 items-center w-full max-w-[1101px] max-md:flex-wrap max-md:max-w-full">
-          <div className="flex flex-col self-stretch my-auto">
-            <div className="text-3xl font-bold">
-              Art
-              <br />
-              Club.{" "}
+      </header>
+      <section class="create-have-questions-ge-wrapper">
+        <form class="create-have-questions-ge">
+          <div class="frame-group">
+            <div class="login-for-admins-wrapper">
+              <h2 class="login-for-admins">Login for Admins.</h2>
             </div>
-            <div className="mt-2.5 text-xs leading-4 text-center">
-              © 2023 — 2024
-            </div>
+            <div class="username">Username:</div>
+            <div class="email-input"></div>
+            <div class="password">Password:</div>
           </div>
-          <div className="flex-auto self-stretch my-auto text-2xl font-bold">
-            Materials, a Space, Create.
-            <br />
-            <span className="text-lg font-light">Have any questions?</span>
-            <br />
-            <span className="text-lg font-light">
-              Get in contact with us now.
-            </span>
+          <div class="password-input-wrapper">
+            <div class="password-input1"></div>
           </div>
+          <div class="create-have-questions-ge-inner">
+            <button class="log-in-wrapper">
+              <div class="log-in">Log In</div>
+            </button>
+          </div>
+        </form>
+      </section>
+      <footer class="footer-background-parent">
+        <div class="footer-background"></div>
+        <div class="frame-wrapper">
+          <div class="art-club-parent">
+            <b class="art-club1">
+              <p class="art1">Art</p>
+              <p class="club1">Club.</p>
+            </b>
+            <div class="copyright">© 2023 — 2024</div>
+          </div>
+        </div>
+        <div class="materials-a-space-create-ha-wrapper">
+          <div class="materials-a-space-container">
+            <p class="materials-a-space-create">
+              <b>Materials, a Space, Create.</b>
+            </p>
+            <p class="have-any-questions">Have any questions?</p>
+            <p class="get-in-contact">Get in contact with us now.</p>
+          </div>
+        </div>
+        <div class="divider-wrapper">
           <img
+            class="divider-icon"
             loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/7a98661f359bffe4c50e229e1fd89ebcfbc028342ff140e9e94258794dd2d6a7?"
-            className="shrink-0 self-stretch w-px border border-white border-solid aspect-[0.01] fill-white stroke-[1px] stroke-white"
+            alt=""
+            src="./public/divider.svg"
           />
-          <div className="self-stretch my-auto text-lg">
-            Instagram.
-            <br />
-            <br />
-            Facebook.
-          </div>
-          <div className="self-stretch my-auto text-lg">
-            LinkedIn.
-            <br />
-            <br />
-            E-Mail.
-          </div>
-          <div className="self-stretch my-auto text-lg">
-            Link.
-            <br />
-            <br />
-            Link.
-          </div>
         </div>
-      </div>
+        <div class="instagram-wrapper">
+          <div class="instagram">Instagram.</div>
+        </div>
+        <div class="linkedin-wrapper">
+          <div class="linkedin">LinkedIn.</div>
+        </div>
+        <div class="admin-wrapper">
+          <div class="admin">Admin.</div>
+        </div>
+      </footer>
     </div>
-  );
-}
-
+  </body>
+</html>

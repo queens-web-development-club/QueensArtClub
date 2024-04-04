@@ -49,8 +49,9 @@ a {
   height: 310.8px;
   width: 603px;
   position: relative;
-  object-fit: cover;
+  object-fit: contain;
   max-width: 100%;
+  max-height: 100%;
 }
 .logo-wrapper {
   align-self: stretch;
@@ -62,6 +63,8 @@ a {
   padding: 0 var(--padding-xl) 22.2px var(--padding-2xl);
   box-sizing: border-box;
   max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
 }
 .materials-a-space {
   margin: 0;
@@ -361,6 +364,7 @@ a {
   box-sizing: border-box;
 }
 .instagram {
+  color: inherit;
   position: relative;
   display: inline-block;
   min-width: 120px;

@@ -19,11 +19,11 @@
     <div class="contact3">
       <header class="frame-header">
         <div class="navbar-background3"></div>
-        <h2 class="home3">Home.</h2>
-        <h2 class="about-us3">About Us.</h2>
-        <h2 class="events4">Events.</h2>
-        <h2 class="gallery5">Gallery.</h2>
-        <h2 class="contact4">Contact.</h2>
+        <a href="home.html"><b class="home3">Home.</b></a>
+        <a href="about.html"><b class="about-us3">About Us.</b></a>
+        <a href="events.html"><b class="events4">Events.</b></a>
+        <a href="gallery.html"><b class="gallery5">Gallery.</b></a>
+        <a href="contact.html"><b class="contact4">Contact.</b></a>
       </header>
       <section class="form-container-wrapper">
         <div class="form-container">
@@ -32,25 +32,32 @@
           </div>
           <div class="email-input-parent">
             <div class="email-input">
+              <form>
               <div class="password-input">
-                <input class="submit-button" placeholder="Name:" type="text" />
-
-                <div class="name-input"></div>
+                <div class="message-wrapper">
+                  <label for="name">Name:</label>
+                </div>
+                <textarea id="name" name="name" style="height: 100px"></textarea>
               </div>
-              <div class="e-mail-parent">
-                <input class="e-mail3" placeholder="E-Mail:" type="text" />
 
-                <div class="password-input1"></div>
-              </div>
               <div class="password-input2">
                 <div class="message-wrapper">
-                  <h3 class="message">Message:</h3>
+                  <label for="email">Email:</label>
                 </div>
-                <textarea class="confirm-input" rows="{8}" cols="{29}">
-                </textarea>
+                <textarea id="email" name="email" style="height: 100px"></textarea>
               </div>
+
+              <div class="password-input2">
+                <div class="message-wrapper">
+                  <label for="message">Message:</label>
+                </div>
+                <textarea id="message" name="message" placeholder="Write something..." style="height: 200px"></textarea>
+                <!-- <textarea class="confirm-input" rows="{8}" cols="{29}"></textarea> -->
+              </div>
+
               <div class="facebook-icon">
                 <button class="submit-wrapper">
+                  <!-- <input type="submit" value="Submit"> -->
                   <div class="submit">Submit</div>
                 </button>
               </div>
@@ -66,7 +73,7 @@
                     class="updates-tracker-icon"
                     loading="lazy"
                     alt=""
-                    src="./public/vector.svg"
+                    src="../../Information/art_club_content/logos/instagram_logo.png"
                   />
 
                   <div class="subscribe-to-newsletter">
@@ -80,7 +87,7 @@
                     class="icon-linkedin-outline"
                     loading="lazy"
                     alt=""
-                    src="./public/-icon-linkedin-outline.svg"
+                    src="../../Information/art_club_content/logos/linkedin_logo.png"
                   />
 
                   <div class="facebook-profile">
@@ -95,7 +102,7 @@
                   class="icon-facebook-outline"
                   loading="lazy"
                   alt=""
-                  src="./public/-icon-facebook-outline.svg"
+                  src="../../Information/art_club_content/logos/photos_logo.png"
                 />
 
                 <div class="facebook-link1">
@@ -139,8 +146,8 @@
         </div>
         <div class="email-field-wrapper">
           <div class="email-field">
-            <div class="e-mail4">E-Mail.</div>
-            <div class="admin3">Admin.</div>
+            <a href = "https://www.linkedin.com/company/artclubqu/"><div class="instagram3">LinkedIn.</div></a>
+            <a href = "login.html"><div class="admin3">Admin.</div></a>
           </div>
         </div>
       </footer>

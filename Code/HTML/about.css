@@ -406,6 +406,7 @@ a {
   box-sizing: border-box;
 }
 .instagram4 {
+  color: inherit;
   position: relative;
   display: inline-block;
   min-width: 120px;

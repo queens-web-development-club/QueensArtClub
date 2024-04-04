@@ -1,0 +1,499 @@
+.art,
+.club {
+  margin: 0;
+}
+.art-club {
+  position: relative;
+}
+.home {
+  position: absolute;
+  margin: 0 !important;
+  bottom: 25px;
+  left: -59px;
+  display: inline-block;
+  min-width: 125px;
+  z-index: 2;
+}
+.navbar-background {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.navbar-background1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  z-index: 1;
+}
+.about-us {
+  position: relative;
+  white-space: nowrap;
+  z-index: 2;
+}
+.about-us-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) var(--padding-15xl) 0 0;
+}
+.events {
+  position: relative;
+  z-index: 2;
+}
+.events-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) var(--padding-15xl) 0 0;
+}
+.gallery {
+  position: relative;
+  z-index: 2;
+}
+.gallery-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) 32px 0 0;
+}
+.about-us-events {
+  height: 15px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-11xs);
+  background-color: var(--color-white);
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.about-us-events-wrapper {
+  width: 140px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-16xl);
+  box-sizing: border-box;
+}
+.instagram-linkedin,
+.instagram-linkedin1 {
+  height: 15px;
+  width: 70px;
+  position: absolute;
+  margin: 0 !important;
+  left: 35px;
+  border-radius: var(--br-11xs);
+  background-color: var(--color-white);
+}
+.instagram-linkedin {
+  bottom: -6px;
+}
+.instagram-linkedin1 {
+  top: 16px;
+}
+.contact {
+  margin-top: -7px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 2;
+}
+.log-in-button {
+  flex-direction: row;
+  position: relative;
+}
+.frame-parent,
+.log-in-button,
+.log-in-button-wrapper,
+.password-input {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.log-in-button-wrapper {
+  height: 42px;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+}
+.frame-parent,
+.password-input {
+  flex-direction: column;
+}
+.password-input {
+  padding: 18px 0 0;
+}
+.login-for-admins,
+.navbar-background-parent {
+  position: relative;
+  font-family: var(--font-helvetica-neue);
+  text-align: left;
+}
+.navbar-background-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 12px var(--padding-xl) var(--padding-smi) var(--padding-60xl);
+  gap: 98px;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+}
+.login-for-admins {
+  margin: 0;
+  height: 59px;
+  font-size: 64px;
+  font-weight: 700;
+  color: var(--color-gray-100);
+  display: inline-block;
+}
+.login-for-admins-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 11px 0 11.5px;
+}
+.username {
+  height: 40px;
+  font-size: var(--font-size-16xl);
+  font-family: var(--font-helvetica-neue);
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+}
+.email-input,
+.password,
+.username {
+  align-self: stretch;
+  position: relative;
+}
+.email-input {
+  height: 65px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.password {
+  height: 40px;
+  font-size: var(--font-size-16xl);
+  font-family: var(--font-helvetica-neue);
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+}
+.frame-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.password-input1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-lg);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 100%;
+}
+.password-input-wrapper {
+  align-self: stretch;
+  height: 99px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-15xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.log-in {
+  position: relative;
+  font-size: 32px;
+  line-height: 36px;
+  font-family: var(--font-helvetica-neue);
+  color: #f2f2f2;
+  text-align: left;
+  display: inline-block;
+  min-width: 70px;
+  white-space: nowrap;
+}
+.create-have-questions-ge-inner,
+.log-in-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.log-in-wrapper {
+  cursor: pointer;
+  border: 3px solid #cbc3e1;
+  padding: 10px var(--padding-7xl);
+  background-color: #1a1a1a;
+  width: 128px;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px #cbc3e1;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.log-in-wrapper:hover {
+  background-color: #4d4d4d;
+  border: 3px solid #998fad;
+  box-sizing: border-box;
+}
+.create-have-questions-ge-inner {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 28px;
+}
+.create-have-questions-ge {
+  margin: 0;
+  width: 570px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+  max-width: 100%;
+}
+.create-have-questions-ge-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 15px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.footer-background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: -3px;
+  left: 0;
+  background-color: var(--color-gray-200);
+}
+.art1,
+.club1 {
+  margin: 0;
+}
+.art-club1,
+.copyright {
+  position: relative;
+  z-index: 1;
+}
+.copyright {
+  align-self: stretch;
+  font-size: 11.8px;
+  line-height: 17px;
+  font-family: var(--font-roboto);
+  text-align: center;
+  display: inline-block;
+  min-width: 81px;
+}
+.art-club-parent,
+.frame-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.art-club-parent {
+  align-self: stretch;
+  gap: 0.6px;
+}
+.frame-wrapper {
+  width: 94px;
+  padding: 2px var(--padding-smi) 0 0;
+  box-sizing: border-box;
+  font-size: 28.7px;
+  font-family: var(--font-helvetica-neue);
+}
+.materials-a-space-create {
+  margin: 0;
+  font-size: 24px;
+}
+.get-in-contact,
+.have-any-questions {
+  margin: 0;
+  font-weight: 300;
+}
+.materials-a-space-container {
+  position: relative;
+  z-index: 1;
+}
+.materials-a-space-create-ha-wrapper {
+  width: 355px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 14px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-helvetica-neue);
+}
+.divider-icon {
+  width: 1px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  z-index: 1;
+}
+.divider-wrapper {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 19px 0 0;
+  box-sizing: border-box;
+}
+.instagram {
+  position: relative;
+  display: inline-block;
+  min-width: 120px;
+  z-index: 1;
+}
+.instagram-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-16xl) 0 0;
+}
+.linkedin {
+  position: relative;
+  display: inline-block;
+  min-width: 101px;
+  z-index: 1;
+}
+.linkedin-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-16xl) 0 0;
+}
+.admin {
+  position: relative;
+  display: inline-block;
+  min-width: 79px;
+  z-index: 1;
+}
+.admin-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 36px 0 0;
+}
+.footer-background-parent,
+.loginpage {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+}
+.footer-background-parent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 17px 133px 5px 158px;
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: 20px;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}
+.loginpage {
+  width: 100%;
+  background: linear-gradient(180deg, #fff, #cbc3e1);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 139px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .navbar-background-parent {
+    padding-left: 39px;
+    box-sizing: border-box;
+  }
+  .footer-background-parent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .login-for-admins {
+    font-size: 51px;
+  }
+  .password,
+  .username {
+    font-size: var(--font-size-9xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .navbar-background-parent {
+    gap: 98px 49px;
+  }
+  .footer-background-parent {
+    padding-left: var(--padding-60xl);
+    padding-right: 66px;
+    box-sizing: border-box;
+  }
+  .loginpage {
+    gap: 69px 139px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .navbar-background-parent {
+    gap: 98px 24px;
+  }
+  .login-for-admins {
+    font-size: 38px;
+  }
+  .password,
+  .username {
+    font-size: var(--font-size-2xl);
+  }
+  .art-club1 {
+    font-size: 23px;
+  }
+  .admin,
+  .instagram,
+  .linkedin {
+    font-size: var(--font-size-xl);
+  }
+  .footer-background-parent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .loginpage {
+    gap: 35px 139px;
+  }
+}

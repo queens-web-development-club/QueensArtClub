@@ -65,7 +65,7 @@ a {
   color: var(--color-gray-200);
   text-align: left;
 }
-.event-name-wrapper {
+.past-event-wrapper {
   cursor: pointer;
   border: 3px solid var(--color-thistle-200);
   padding: var(--padding-3xs) var(--padding-xl);
@@ -80,11 +80,17 @@ a {
   justify-content: center;
 }
 .event-name-container:hover,
-.event-name-wrapper:hover {
+.past-event-wrapper:hover {
   background-color: var(--color-gainsboro);
   border: 3px solid var(--color-lightslategray-100);
   box-sizing: border-box;
 }
+.past-event-wrapper:focus {
+  background-color: var(--color-slategray);
+  border: 3px solid var(--color-lightslategray-100);
+  box-sizing: border-box;
+}
+
 .event-name2 {
   position: relative;
   font-size: var(--font-size-16xl);
@@ -113,7 +119,7 @@ a {
   color: var(--color-whitesmoke);
   text-align: left;
 }
-.event-name-frame {
+/* .event-name-frame {
   cursor: pointer;
   border: 0;
   padding: var(--padding-3xs) var(--padding-xl);
@@ -126,10 +132,10 @@ a {
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-}
-.event-name-frame:hover {
+} */
+/* .event-name-frame:hover {
   background-color: var(--color-lightslategray-200);
-}
+} */
 .event-name4 {
   position: relative;
   font-size: var(--font-size-16xl);
@@ -137,7 +143,7 @@ a {
   color: var(--color-gray-200);
   text-align: left;
 }
-.frame-button {
+.current-event-button {
   cursor: pointer;
   border: 3px solid var(--color-thistle-200);
   padding: var(--padding-3xs) var(--padding-xl);
@@ -151,11 +157,18 @@ a {
   align-items: flex-start;
   justify-content: center;
 }
-.frame-button:hover {
+.current-event-button:hover {
   background-color: var(--color-gainsboro);
   border: 3px solid var(--color-lightslategray-100);
   box-sizing: border-box;
 }
+
+.current-event-button:focus{
+  background-color: var(--color-slategray);
+  border: 3px solid var(--color-lightslategray-100);
+  box-sizing: border-box;
+}
+
 .frame-parent1,
 .frame-parent2 {
   display: flex;
@@ -441,7 +454,7 @@ a {
   justify-content: flex-start;
   gap: var(--gap-14xl);
 }
-.event-name6 {
+.button-text{
   position: relative;
   font-size: var(--font-size-13xl);
   font-family: var(--font-helvetica-neue);
@@ -522,7 +535,7 @@ a {
 .event-title1:hover {
   background-color: var(--color-lightslategray-200);
 }
-.event-title-parent {
+.event-title1{
   flex: 1;
   flex-direction: column;
   gap: var(--gap-14xl);

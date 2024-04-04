@@ -135,7 +135,7 @@ a {
   overflow: hidden;
   flex-shrink: 0;
 }
-.event-name12 {
+.event-name-text {
   position: relative;
   font-size: var(--font-size-13xl);
   font-family: var(--font-helvetica-neue);
@@ -166,13 +166,13 @@ a {
   border: 3px solid var(--color-lightslategray-100);
   box-sizing: border-box;
 }
-.event-name13 {
+/* .event-name13 {
   position: relative;
   font-size: var(--font-size-13xl);
   font-family: var(--font-helvetica-neue);
   color: var(--color-gray-200);
   text-align: left;
-}
+} */
 .footer-background2 {
   cursor: pointer;
   border: 3px solid var(--color-thistle-200);
@@ -188,13 +188,13 @@ a {
   justify-content: flex-start;
   white-space: nowrap;
 }
-.event-name14 {
+/* .event-name14 {
   position: relative;
   font-size: var(--font-size-13xl);
   font-family: var(--font-helvetica-neue);
   color: var(--color-whitesmoke);
   text-align: left;
-}
+} */
 .footer-background3,
 .mediums-label1 {
   display: flex;
@@ -222,14 +222,14 @@ a {
   min-width: 195px;
   max-width: 233px;
 }
-.event-name15 {
+/* .event-name15 {
   position: relative;
   font-size: var(--font-size-13xl);
   font-family: var(--font-helvetica-neue);
   color: var(--color-gray-200);
   text-align: left;
-}
-.event-name-wrapper6 {
+} */
+.event-name-wrapper {
   cursor: pointer;
   border: 3px solid var(--color-thistle-200);
   padding: var(--padding-3xs) var(--padding-7xl);
@@ -244,27 +244,60 @@ a {
   justify-content: flex-start;
   white-space: nowrap;
 }
-.event-name-wrapper6:hover,
-.event-name-wrapper7:hover,
-.mediums-label3:hover {
+.event-name-wrapper:hover /* .event-name-wrapper7:hover, .mediums-label3:hover*/ {
   background-color: var(--color-gainsboro);
   border: 3px solid var(--color-lightslategray-100);
   box-sizing: border-box;
 }
-.event-name16 {
+
+.event-name-wrapper:focus /* .event-name-wrapper7:hover, .mediums-label3:hover*/ {
+  background-color: var(--color-slategray);
+  border: 3px solid var(--color-lightslategray-100);
+  box-sizing: border-box;
+}
+
+.event-name-wrapper2 {
+  cursor: pointer;
+  border: 3px solid var(--color-thistle-200);
+  padding: var(--padding-3xs) var(--padding-7xl);
+  background-color: var(--color-whitesmoke);
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  box-shadow: 0 4px 4px #cbc3e1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.event-name-wrapper2:hover /* .event-name-wrapper7:hover, .mediums-label3:hover*/ {
+  background-color: var(--color-gainsboro);
+  border: 3px solid var(--color-lightslategray-100);
+  box-sizing: border-box;
+}
+
+.event-name-wrapper2:focus /* .event-name-wrapper7:hover, .mediums-label3:hover*/ {
+  background-color: var(--color-slategray);
+  border: 3px solid var(--color-lightslategray-100);
+  box-sizing: border-box;
+  color:white;
+}
+
+/* .event-name16 {
   position: relative;
   font-size: var(--font-size-13xl);
   font-family: var(--font-helvetica-neue);
   color: var(--color-gray-200);
   text-align: left;
-}
-.event-name-wrapper7,
+} */
+/* .event-name-wrapper7, */
 .mediums-label2 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.event-name-wrapper7 {
+/* .event-name-wrapper7 {
   cursor: pointer;
   border: 3px solid var(--color-thistle-200);
   padding: var(--padding-3xs) var(--padding-7xl);
@@ -275,7 +308,7 @@ a {
   overflow: hidden;
   flex-direction: row;
   white-space: nowrap;
-}
+} */
 .mediums-label2 {
   flex: 1;
   flex-direction: column;
@@ -283,13 +316,13 @@ a {
   min-width: 195px;
   max-width: 233px;
 }
-.event-name17 {
+/* .event-name17 {
   position: relative;
   font-size: var(--font-size-13xl);
   font-family: var(--font-helvetica-neue);
   color: var(--color-gray-200);
   text-align: left;
-}
+} */
 .mediums-label3,
 .past-events-container,
 .past-events2 {
@@ -447,6 +480,7 @@ a {
   height: 294px;
 }
 .footer-background-child2 {
+  
   border: 0;
   width: 504px;
   outline: 0;
@@ -637,6 +671,7 @@ a {
   box-sizing: border-box;
 }
 .instagram2 {
+  color: inherit;
   position: relative;
   display: inline-block;
   min-width: 120px;
@@ -648,8 +683,10 @@ a {
   align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-16xl) 0 0;
+  font-family: var(--font-roboto);
 }
 .e-mail2 {
+  color: inherit;
   position: relative;
   display: inline-block;
   min-width: 76px;
@@ -663,6 +700,7 @@ a {
   padding: var(--padding-16xl) 0 0;
 }
 .admin2 {
+  color: inherit;
   position: relative;
   display: inline-block;
   min-width: 79px;
