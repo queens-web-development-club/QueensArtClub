@@ -168,6 +168,7 @@ textarea {
   background-color: var(--color-whitesmoke);
   /* height: 200px; */
   width: 600px;
+  font-size: 24px;
   outline: 0;
   align-self: stretch;
   position: relative;
